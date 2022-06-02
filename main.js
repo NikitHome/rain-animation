@@ -20,4 +20,8 @@ function rain() {
     }
 }
 
-rain();
+// rain();
+
+var promise = new Promise(function(resolve, reject) {
+    rain();
+  })
